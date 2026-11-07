@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Auto: light on older Android (overridden with a day/night theme in values-v29) -->
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="AppThemeLight" parent="android:Theme.Material.Light">
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="AppThemeDark" parent="android:Theme.Material">
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
